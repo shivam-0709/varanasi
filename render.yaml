@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: varanasi-tourism
+    name: varanasi
     env: python
     plan: free
 
@@ -20,3 +20,4 @@ services:
         generateValue: true
       - key: DEBUG
         value: "False"
+
