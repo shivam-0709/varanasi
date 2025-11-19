@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: varanasi
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn varanasi.wsgi:application"
-    plan: free
